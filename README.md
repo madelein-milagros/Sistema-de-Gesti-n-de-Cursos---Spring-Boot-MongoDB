@@ -1,82 +1,51 @@
-# 🎓 Sistema de Gestión de Cursos - Spring Boot & MongoDB
+```markdown
+# 🎓 Sistema de Gestión de Cursos
+Spring Boot + MongoDB Atlas — Aplicación web para gestionar cursos académicos (CRUD) con interfaz responsive.
 
-Una aplicación web completa para la gestión de cursos académicos desarrollada con Spring Boot y MongoDB Atlas.
+[![Estado](https://img.shields.io/badge/status-en_desarrollo-yellow)]() [![Java](https://img.shields.io/badge/Java-17-blue)]() [![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.7.0-brightgreen)]() [![MongoDB Atlas](https://img.shields.io/badge/MongoDB-Atlas-4ea94b)]()
 
-## ✨ Características
+---
 
-- ✅ **CRUD Completo** - Crear, Leer, Actualizar y Eliminar cursos
-- 🎨 **Interfaz Moderna** - Diseño responsive con Bootstrap 5
-- ☁️ **Base de Datos en la Nube** - MongoDB Atlas
-- 🔍 **Búsqueda en Tiempo Real** - Filtrado por nombre de curso
-- 📱 **Diseño Responsive** - Compatible con todos los dispositivos
+Índice
+- [Descripción](#descripción)
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Previsualización](#previsualización)
+- [Instalación rápida](#instalación-rápida)
+- [Configuración](#configuración)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Endpoints principales](#endpoints-principales)
+- [Buenas prácticas y mejoras sugeridas](#buenas-prácticas-y-mejoras-sugeridas)
+- [Contribuir](#contribuir)
+- [Autor y licencia](#autor-y-licencia)
 
-## 🛠️ Tecnologías Utilizadas
+---
 
-- **Backend:** Spring Boot 2.7.0
-- **Base de Datos:** MongoDB Atlas
-- **Frontend:** Thymeleaf, Bootstrap 5, JavaScript
-- **Herramientas:** Maven, Git, Spring Data MongoDB
+## Descripción
+Aplicación sencilla y limpia para administrar cursos: crear, listar, editar y eliminar. Pensada como proyecto educativo para practicar Spring Boot, Spring Data MongoDB y Thymeleaf con Bootstrap 5.
 
-## 🚀 Instalación y Ejecución
+## Características
+- CRUD completo para cursos (crear, leer, actualizar, eliminar).
+- Interfaz responsive con Bootstrap 5.
+- Búsqueda/filtrado por nombre de curso.
+- Persistencia en MongoDB Atlas.
+- Plantillas con Thymeleaf.
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.madelein-milagros/prj-crud-spring-boot-mongodb.git
+## Tecnologías
+- Backend: Spring Boot 2.7.0
+- Persistencia: MongoDB Atlas (Spring Data MongoDB)
+- Frontend: Thymeleaf, Bootstrap 5, JavaScript
+- Build: Maven
 
-  Configurar la base de datos:
+## Previsualización
+(Agrega capturas en `src/main/resources/static/img/` o `docs/screenshots/` y actualiza las rutas)
 
-Crear una cuenta en MongoDB Atlas
+![Interfaz de ejemplo](docs/screenshots/interface.png)
 
-Configurar las credenciales en application.properties
+---
 
-Ejecutar la aplicación:
+## Instalación rápida
 
-bash
-
-Download
-mvn spring-boot:run
-Abrir en el navegador:
-
-text
-
-
-Download
-http://localhost:8080/cursos
-
-📁 Estructura del Proyecto
-text
-
-Download
-src/
-├── main/
-│   ├── java/
-│   │   └── com/ejemplo/escuela/
-│   │       ├── Application.java
-│   │       ├── controller/
-│   │       ├── model/
-│   │       ├── repository/
-│   │       └── service/
-│   └── resources/
-│       ├── templates/
-│       ├── static/
-│       └── application.properties
-└── test/
-🎯 Endpoints Principales
-GET /cursos - Lista todos los cursos
-
-GET /cursos/nuevo - Formulario para nuevo curso
-
-POST /cursos/guardar - Guardar curso
-
-GET /cursos/editar/{id} - Editar curso existente
-
-GET /cursos/eliminar/{id} - Eliminar curso
-
-📸 Capturas de Pantalla
-Interfaz moderna y responsive para gestión de cursos
-
-👨‍💻 Autor
-Milagros Madelein Ramos Ch.
-
-📄 Licencia
-Este proyecto es para fines educativos como parte del curso de Desarrollo de Aplicaciones Web.
+1. Clona el repositorio:
+```bash
+```
