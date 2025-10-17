@@ -33,23 +33,18 @@ Ejecutar la aplicación:
 
 bash
 
-Copy
-
 Download
 mvn spring-boot:run
 Abrir en el navegador:
 
 text
 
-Copy
 
 Download
 http://localhost:8080/cursos
 
 📁 Estructura del Proyecto
 text
-
-Copy
 
 Download
 src/
